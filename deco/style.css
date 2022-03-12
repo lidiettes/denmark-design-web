@@ -1,0 +1,65 @@
+main {
+    height: 200vh;
+}
+
+
+.deco__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/images/composicion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+
+}
+
+h1 {
+    font-family: "OpenSans-Light";
+    font-size: 100px;
+    position: absolute;
+    color:rgb(62, 54, 95);
+}
+
+.container__bloque {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 800px;
+    width: 100vw;
+}
+
+.colorplano{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff1e2;
+}
+
+.foto{
+    display: flex;
+    background-image: url("../assets/images/pilea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width:50vw;
+    object-fit: cover;
+}
+
+.cajita__colorplano {
+    height: 200px;
+    width: 400px;
+    word-break: break-all;
+    font-family: "OpenSans-Light";
+    font-size: 40px;
+
+    /* padding: 20px 20px 20px 20px; */
+    border: solid 1px white;
+}

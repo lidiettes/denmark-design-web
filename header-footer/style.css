@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../assets/fonts/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans_SemiCondensed-Light";
+    src: url("../assets/fonts/OpenSans_SemiCondensed-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans_Condensed-Light";
+    src: url("../assets/fonts/OpenSans_Condensed-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Northern_Worssley";
+    src: url("../assets/fonts/Northern_Worssley.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #20143b;
+}
+
+a:hover {
+    color: #f6fac8;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #BAD7DF;
+    width: 100vw;
+    height: 150px;
+
+
+}
+
+/* .header__logo {
+    height: 225px;
+    margin-right: 1200px;
+}
+ */
+
+.header__nav {
+    width: 100vw;
+    background-color: #8aacc8;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-self: center;
+    height: 30px;
+    display: flex;
+    font-family: "OpenSans-Light";
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+ 
+
+
+}
+
+.brand {
+    color: #20143b;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: "Northern_Worssley";
+    letter-spacing: 20px;
+    font-size: 1rem;
+}
+
+/* ------ footer------- */
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #C3B4D2;
+    font-family: "OpenSans_Condensed-light";
+    min-height: 300px;
+}
+
+.footer__columns {
+    display: block;
+    padding:30px;
+
+}
+
+.footer__columns--menu {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__columns--company {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__columns--social {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__columns--general {
+    margin-top: 40px;
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.footer__sign {
+    flex-direction: none;
+    align-self: flex-end;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+/*Demo 2*/
+ul#demo2 li a {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  ul#demo2 li:hover a {
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  }
+
+
+  [class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+  }
+  
+  ul.social-buttons {@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+    text-align:end;
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+  
+  ul.social-buttons li {
+    display: inline-block;
+    margin: 0 1px;
+  }
+  
+  ul.social-buttons li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+  }
+  
+  ul.social-buttons li a.brandico-twitter-bird {
+    background-color: #4099FF;
+  }
+  
+  ul.social-buttons li a.brandico-facebook {
+    background-color: #3B5998;
+  }
+  
+  ul.social-buttons li a.brandico-instagram {
+    background-color: #3f729b;
+  }
+  
+  ul.social-buttons li a.brandico-linkedin {
+    background-color: #0e76a8;
+  }
+  
